@@ -1,18 +1,202 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery.js.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<style>
+	#div1{
+		background-color: rgba(167,189,255,1.00);
+		height:100px;
+	}
+	#txt{
+		
+		padding-top: 40px;
+	}
+	#div2{
+		background-color: rgba(215,215,215,1.00);
+		height:300px;
+	}
+	#i2{
+	height: 500px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#i3{
+	height: 500px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#i4{
+	height: 500px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#i1{
+	height: 500px;
+	width:50%;
+	margin-left: 100px;	
+	}
+	#i5{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;	
+	}
+	#i6{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#i7{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#i8{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#1{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;	
+	}
+	#2{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#3{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	#{
+	height: 250px;
+	width:50%;
+	margin-left: 100px;		
+	}
+	
+</style>
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-12 col-12" >
+<span><img src="img/imgg.png" class="mt-3" alt="logo"	><button class="btn btn-primary  mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+Explore</button></span>
+<div class="page-header " >	
+</div>	
+<div class="offcanvas offcanvas-start " id="demo">
+<div class="offcanvas-header">
+<h2 class="offcanvas-title me" >Goals</h2>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+</div>
+<div class="offcanvas-body">
+<ul>
+<a href="#">Take afree course</a><br>
+<a href="#">Earn a Degree</a><br>
+<a href="#">Earn a Ceretificate</a><br>
+<a href="#">Advace your carrier</a><br>
+<a href="#">Find your carrier</a><br>
+<br>
+<br> 
+<h2 class="offcanvas-title">Subjects</h2>	 
+<a href="#">Data Science </a><br>
+<a href="#">Business</a><br>
+<a href="#">Computer science</a><br>
+<a href="#">Information Technology</a><br>
+<a href="#">Language Learning</a><br>
+<a href="#">Health</a><br>
+<a href="#">Personal Development</a><br>	 
+<a href="#">Physical science and Engineering</a><br>
+<a href="#">Social Science</a><br>
+<a href="#">Arts and Humanities</a><br>
+<a href="#">Maths and Logics</a><br>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" >
+<button class="btn btn-link">Online Degree</button>
+<button class="btn btn-link">Find your Degree</button>
+<button class="btn btn-link">For Enterprises</button>
+<button class="btn btn-link">For Universities</button>
+<button class="btn btn-link"></button>
+</div>	
+<div class="col-lg-3 col-md-4 col-sm-12 col-12 mt-3"   >
+<form class="d-flex">
+<input class="form-control " type="text" placeholder="Search" >
+<button class="btn btn-primary" type="button">Search</button>
+</form></div></div>	</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-3" id="div1">
+<h6 class="text-center" id="txt">Upskill your team with world-class learning. <a href="#" class="btn-close-white"> New customers can claim 10% discount.</a> <button type="button" class="btn-close"></button></h6>
+</div>
+<div class="container">
+<div class="row mt-5">
+<div class="col-lg-4 col-md-12 col-sm-12 col-12 mt-5" ></div>	
+<div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-5" >
+<h1>Learn without limits</h1>
+<p>Get that "ready for anything" feeling with more than 5,000 courses,<br> Professional Certificates, and degrees from world-class universities<br> and companies.</p><button class="btn btn-primary btn-lg mt-3">Join For FREE</button><button type="button" class="btn btn-outline-primary btn-lg mt-3">Learn More </button>
+<div class="col-lg-5 col-md-12 col-sm-12 col-12 mt-5" ><img src="img/immg.png" alt="img"></div>
+</div>
+</div>
+</div>
+	
+<div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-5"><img src="img/Screensho 2022-04-06 005941.png" alt="img"></div>	
+	<div class="container">
+<h5 class="text- mt-5">Professional Certificates</h5>
+<h2 class=" mt-3 ">Get job-ready for an in-demand career</h2>
+<h5 class=" mt-2 ">Break into a new field like information technology or data science. No prior experience necessary to get started.</h5>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 053701.png" alt="New York" id="i2"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 053716.png" alt="New York" id="i3"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5" >
+<img src="img/Screenshot 2022-04-08 053734.png" alt="New York" id="i4"></div>	
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 053749.png" alt="New York" id="i1"></div>			
+</div>
+</div>
+<h4 class="text-center mt-5">Explore Certificates<span class="glyphicon glyphicon-arrow-right"></span></h4>
+	<div class="container">
+	<button class="btn btn-link btn-lg mt-5">Master and Bachelor's Degree </button>	
+	
+<h2 class=" mt-3 ">Find a top degree that fits your life</h2>
+<h5 class=" mt-2">Breakthrough pricing on 100% online degrees from top universities.</h5></div>
+	<div class="container-fluid ">
+		<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 060150.png" alt="New York" id="i5"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 060206.png" alt="New York" id="i6"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5" >
+<img src="img/Screenshot 2022-04-08 060219.png" alt="New York" id="i7"></div>	
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 060234.png" alt="New York" id="i8"></div>			
+</div>
+</div>
+<h4 class="text-center mt-5">Explore Certificates<span class="glyphicon glyphicon-arrow-right"></span></h4>	<div class="container">
+	<h2 class=" mt-3 ">Courses and Specializations</h2>
+	
+<h5 class=" mt-2">Over 4,000 courses in topics like business analytics, graphic design, Python, and more.</h5></div>
+<div class="container">
+		<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 061258.png" alt="New York" id="1"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 061315.png" alt="New York" id="2"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5" >
+<img src="img/Screenshot 2022-04-08 061333.png" alt="New York" id="3"></div>	
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5">
+<img src="img/Screenshot 2022-04-08 061355.png" alt="New York" id="4"></div>			
+</div>
+</div>	
+	
+</body>
+</html>
